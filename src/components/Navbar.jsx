@@ -56,11 +56,11 @@ const handleCheckHealth= async ()=>{
       
         {/* Right Side */}
         <div className="hidden  md:flex items-center gap-4 ">
-          <Link className="text-white text-sm font-medium hover:text-gray-200 transition cursor-pointer">
+          <Link to="/contactPage" className="text-white text-sm font-medium hover:text-gray-200 transition cursor-pointer">
             Contact Me
           </Link>
 
-          <Link   className="bg-green-500 hover:bg-green-600 transition text-white px-5 py-2 rounded-4xl text-sm font-semibold flex items-center gap-2 cursor-pointer">
+          <Link to="/architecture"   className="bg-green-500 hover:bg-green-600 transition text-white px-5 py-2 rounded-4xl text-sm font-semibold flex items-center gap-2 cursor-pointer">
             System Architecture 
             <span>→</span>
           </Link>
